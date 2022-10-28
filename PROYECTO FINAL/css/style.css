@@ -1,0 +1,203 @@
+/* menu */
+.navbar-expand-lg {
+
+    background-color: #08D0DF;
+    height: 80px;
+    position: fixed;
+    font-weight: bold;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+
+/* submenu */
+
+.dropdown-menu {
+    background-color: #08D0DF;
+    font-weight: bold;
+}
+.nav-item:hover{
+    background-color: #368BF9;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: all 300ms ease;
+}
+
+
+.dropdown-item:hover{
+    background-color: #368BF9;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Banner */
+
+/* formulario*/
+
+.form {
+    border: 3px solid #368BF9;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 300ms ease;
+}
+
+#form_title {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+    align-items: center;
+    transition: all 300ms ease;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.container-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#row-container {
+    text-align: center;
+}
+
+#row-container2 {
+    margin: 60px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.row-container3 {
+    text-align: center;
+}
+
+#container-imagen {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#icon-1{
+    font-size: 200px;
+    color: antiquewhite;position: absolute;
+    
+}
+.section-secundary{
+
+    background-size:cover ;
+    min-height: 70vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+
+}
+.icon-Beneficios{
+    padding-top: 20%; color: #368BF9;
+}
+.icon-Beneficios:hover{
+    color: aliceblue;
+}
+.icon-Beneficios>a:hover{
+    color: aliceblue;
+}
+.footer{
+    width: 100%;
+    background-color: #08D0DF;
+    
+}
+
+@media (max-width: 991.98px){
+    .section-secundary{
+        min-height: 50vh;
+
+    }
+    .navbar-nav{
+        background-color: rgba(29, 178, 223, 0.767);
+        left: 0;
+        transition: all 300ms ease;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .nav-item:hover{
+        background-color: #368BF9;
+        font-weight: bold;
+        font-size: 32px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .dropdown-item{
+        background-color: #08D0DF;
+        font-size: 25px;
+        color: aliceblue;
+        text-align: center;
+    }
+    .dropdown-item:hover{
+        background-color: #368BF9;
+        font-weight: bold;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        color:black ;
+    }
+
+}
+@media (max-width: 900px) { 
+
+.section-secundary{
+    min-height: 10vh;
+}
+.icon-Beneficios{
+    color:#D6F7FA ;
+    
+
+}
+#form_title {
+    font-size: 20px;
+}
+
+.form{
+    margin-top: 20px;
+}
+.card{
+    margin-bottom: 20px;
+}
+.btn-primaryy{
+    text-align: center;
+}
+}
+@media (max-width: 532px) { 
+
+    .section-secundary{
+        min-height: 10vh;
+    }
+    .icon-Beneficios{
+        font-size: 10px;
+    }
+    .navbar-nav{
+        font-size: 25px;
+    }
+    .nav-item:hover{
+        font-size: 28px;
+    }
+
+    .form{
+        margin-top: 20px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .carousel-inner{
+        top: 80px;
+        width: 100%;
+        height: 250px;
+    }
+    body{
+        background-color: #B6F9EE;
+    }
+    
+}
+
+
