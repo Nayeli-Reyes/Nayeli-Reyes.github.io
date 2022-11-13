@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         if (contador == 0) {
             document.getElementById("btnAletorio").disabled = true;
             message2.textContent =("Ya no te quedan mas intentos");
-        suma1.textContent = (" Total : "+suma);
+        suma1.textContent = (" Puntaje Total : "+suma);
 
         };
         
