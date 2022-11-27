@@ -1,0 +1,144 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.page-header{
+   z-index: 1;
+   position: fixed;
+   background-color: #00FA9A;
+   width: 100%;
+   margin-top: -80px;
+}
+
+.contenido {
+   width: 90%;
+   margin: 10px auto;
+   margin-top: 30px;
+   background-color: silver;
+   padding: 1em;
+   display: flex;
+   flex-wrap: wrap;
+}
+#datos{
+   margin-top: 80px;
+}
+
+.cards {
+   width: 150px;
+   margin: 10px;
+   padding: 1em;
+   margin-bottom: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.cards img {
+   max-width: 50px;
+   border-radius: 50%;
+}
+
+.page-header {
+   align-items: center;
+   text-align: center;
+}
+
+#contenido {
+   background-color: white;
+   padding-left: 40px;
+
+}
+
+#contenido .cards {
+   background-color: #98FB98;
+   border: 5px double #00FF00;
+   cursor: pointer;
+}
+
+.cards div {
+   font-size: 12px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.cards img {
+   border: 3px double #2E8B57;
+
+}
+
+.cards h2,
+h3 {
+   color: #800000;
+   font-weight: bold;
+
+}
+
+.cards h6 {
+   color: #800000;
+   font-weight: bold;
+   font-size: 8px;
+
+}
+
+.cards h4 {
+   color: #800000;
+   font-weight: bold;
+   font-size: 10px;
+
+}
+
+.btn {
+   background-color: #2E8B57;
+   border-radius: 1px ;
+   color: white;
+   padding: 12px 16px;
+   font-size: 16px;
+   cursor: pointer;
+
+}
+#oculta{
+   background-color: #2E8B57;
+   border-radius: 1px ;
+   color: white;
+   padding: 12px 16px;
+   font-size: 16px;
+   cursor: pointer;
+}
+#muestra{
+   background-color: #2E8B57;
+   border-radius: 1px ;
+   color: white;
+   padding: 12px 16px;
+   font-size: 16px;
+   cursor: pointer;
+}
+#visible{
+   background-color: #2E8B57;
+   border-radius: 1px ;
+   color: white;
+   padding: 12px 16px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+   background-color:#00FA9A;
+   color: black;
+}
+#oculta:hover {
+   background-color:#00FA9A;
+   color: black;
+}
+#muestra:hover {
+   background-color:#00FA9A;
+   color: black;
+}
+#visible:hover {
+   background-color:#00FA9A;
+   color: black;
+}
